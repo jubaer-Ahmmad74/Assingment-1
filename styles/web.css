@@ -18,24 +18,52 @@ nav ul{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar-btn{
-    padding: 0.5rem 1rem;
-    background-color:#4E47FF ;
-    color: white;
-    border: none;
-    font-size: 16px;
-    outline: none;
-    text-decoration: none;
-    border-radius: 10px;
-    cursor: pointer;
+      padding: 0.5rem 1rem;
+      background-color: #4a00e0;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background-color 0.3s ease;
 
 }
 .navbar-btn:hover{
-    background-color: #554086;
+    background-color: #06040c;
 }
 
 header{
     background-image: url(../Assets/Hero-bg.png);
-    width: 1440px;
-    height: 698px;
 
+    max-width: 1200px;
+
+}
+h1{
+    text-align: center;
+    color: #252432;
+    font-size: 2.5em;
+    font-weight: bold;
+   padding: 4rem 2rem; 
+   margin-bottom: 2rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-container{
+    text-align: center;
+    font-family: ;
+   
+
+}
+.header-btn{
+    padding: 0.5rem 1rem;
+      background-color: #4a00e0;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background-color 0.3s ease;
+
+}
+.header-btn:hover{
+    background-color: #0d0818;
 }
