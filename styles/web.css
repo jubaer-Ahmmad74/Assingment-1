@@ -1,0 +1,41 @@
+/*header style*/
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 2rem 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+   
+}
+.navbar-logo{
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+    color:#4E47FF ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-btn{
+    padding: 0.5rem 1rem;
+    background-color:#4E47FF ;
+    color: white;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.navbar-btn:hover{
+    background-color: #554086;
+}
+
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+
+}
