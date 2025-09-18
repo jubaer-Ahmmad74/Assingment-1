@@ -357,3 +357,51 @@ h1{
     .btn:hover {
       background-color: #4a26e0;
     }
+    /*footer style*/
+    .footer{
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+       padding: 40px 20px;
+      color: #666;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+         max-width: 1200px;
+      text-align: center;
+      
+
+    }
+    .logo {
+      font-size: 4rem;
+      font-weight: 700;
+      color: #4a46ff;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto 24px auto;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      font-size: 1rem;
+    }
+
+    .nav-links a {
+      color: #666;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #4a46ff;
+    }
