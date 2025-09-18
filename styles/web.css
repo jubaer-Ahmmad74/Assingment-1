@@ -4,7 +4,7 @@ nav ul{
     list-style: none;
     align-items: center;
     padding: 2rem 3rem;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     justify-content: space-between;
 
@@ -26,6 +26,8 @@ nav ul{
       cursor: pointer;
       font-size: 0.9rem;
       transition: background-color 0.3s ease;
+    
+
 
 }
 .navbar-btn:hover{
@@ -35,7 +37,8 @@ nav ul{
 header{
     background-image: url(../Assets/Hero-bg.png);
 
-    max-width: 1200px;
+    max-width: 1440px;
+    max-height: 800px;
 
 }
 h1{
@@ -49,7 +52,7 @@ h1{
 }
 .header-container{
     text-align: center;
-    font-family: ;
+  
    
 
 }
@@ -62,8 +65,75 @@ h1{
       cursor: pointer;
       font-size: 0.9rem;
       transition: background-color 0.3s ease;
+      justify-content: center;
 
 }
 .header-btn:hover{
     background-color: #0d0818;
 }
+/*first section style*/
+.action{
+    max-width: 1140px;
+    gap: 60px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+
+
+}
+.first-section{
+    display: flex;
+    padding: 5rem 4rem;
+    gap:100px;
+    width: 1140px;
+    height: 328px;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.mini{
+  
+ 
+    border-radius: 48px;
+    align-items: center;
+    position:static; 
+
+}
+.first-sec-btn{
+      padding: 12px 24px;
+      background-color: #4a00e0;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      align-items: center;
+
+}
+.first-sec-btn:hover{
+    background-color: #0d0818;
+
+}
+.first-sec-hd{
+    font:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font: 800;
+    text-align: center;
+    
+    
+}
+.first-sec-para{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 2.2rem;
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+    text-align: center;
+     position:static; 
+
+}
+.sec-div{
+    text-align: center;
+}
+
